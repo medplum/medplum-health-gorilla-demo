@@ -1,5 +1,5 @@
 
-> medplum-health-gorilla-demo@4.5.0 build
+> medplum-health-gorilla-demo@4.5.1 build
 > tsc -b && vite build
 
 [36mvite v7.1.9 [32mbuilding for production...[36m[39m
@@ -15,4 +15,4 @@ computing gzip size...
 - Using dynamic import() to code-split the application
 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
-[32m✓ built in 44.19s[39m
+[32m✓ built in 36.55s[39m
