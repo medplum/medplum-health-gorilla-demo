@@ -1,5 +1,5 @@
 
-> medplum-health-gorilla-demo@5.1.1 build
+> medplum-health-gorilla-demo@5.1.3 build
 > tsc -b && vite build
 
 [36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
@@ -8,11 +8,11 @@ transforming...
 rendering chunks...
 computing gzip size...
 [2mdist/[22m[32mindex.html                 [39m[1m[2m  0.45 kB[22m[1m[22m[2m │ gzip:   0.29 kB[22m
-[2mdist/[22m[2massets/[22m[35mindex-DZruLlcr.css  [39m[1m[2m225.76 kB[22m[1m[22m[2m │ gzip:  33.74 kB[22m
-[2mdist/[22m[2massets/[22m[36mindex-Bt-pyrsq.js   [39m[1m[33m870.88 kB[39m[22m[2m │ gzip: 264.35 kB[22m
 [33m
+[2mdist/[22m[2massets/[22m[35mindex-Dnhs-qEW.css  [39m[1m[2m225.38 kB[22m[1m[22m[2m │ gzip:  33.70 kB[22m
 (!) Some chunks are larger than 500 kB after minification. Consider:
+[2mdist/[22m[2massets/[22m[36mindex-BumL36to.js   [39m[1m[33m872.70 kB[39m[22m[2m │ gzip: 264.93 kB[22m
+[32m✓ built in 22.27s[39m
 - Using dynamic import() to code-split the application
 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
-[32m✓ built in 14.67s[39m
