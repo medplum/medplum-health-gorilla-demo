@@ -1,18 +1,21 @@
 
-> medplum-health-gorilla-demo@5.1.27 build
+> medplum-health-gorilla-demo@5.1.28 build
 > tsc -b && vite build
 
-[36mvite v8.1.5 [32mbuilding client environment for production...[36m[39m
-[2Ktransforming...✓ 6972 modules transformed.
+[33m(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - `__dirname` (vite.config.ts:11:27). Use `import.meta.dirname` instead
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.[39m
+[36mvite v8.2.0 [32mbuilding client environment for production...[36m[39m
+[2Ktransforming...✓ 6990 modules transformed.
 rendering chunks...
 computing gzip size...
 dist/index.html                     0.45 kB │ gzip:   0.29 kB
-dist/assets/index-fUl3WfEM.css    235.65 kB │ gzip:  34.66 kB
-dist/assets/index-CwkMg2RY.js   1,006.19 kB │ gzip: 301.52 kB
+dist/assets/index-CftbOs36.css    236.01 kB │ gzip:  34.74 kB
+dist/assets/index-Bo9_Lqzg.js   1,006.81 kB │ gzip: 301.57 kB
 
 [33m[plugin builtin:vite-reporter] 
 (!) Some chunks are larger than 500 kB after minification. Consider:
 - Using dynamic import() to code-split the application
 - Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m
-[32m✓ built in 4.40s[39m
+[32m✓ built in 2.88s[39m
