@@ -1,5 +1,5 @@
 
-> medplum-health-gorilla-demo@5.1.35 build
+> medplum-health-gorilla-demo@5.1.36 build
 > tsc -b && vite build
 
 [33m(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
@@ -13,7 +13,7 @@ dist/index.html                   0.45 kB │ gzip:   0.29 kB
 dist/assets/index-BYy0vQvz.css  240.12 kB │ gzip:  35.16 kB
 dist/assets/index-9EUfYEDv.js   905.14 kB │ gzip: 269.76 kB
 
-[32m✓ built in 3.32s[39m
+[32m✓ built in 1.80s[39m
 [33m[plugin builtin:vite-reporter] 
 (!) Some chunks are larger than 500 kB after minification. Consider:
 - Using dynamic import() to code-split the application
